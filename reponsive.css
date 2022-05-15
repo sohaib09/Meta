@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+    .header button {
+        position: absolute !important;
+        left: 81% !important;
+    }
+
+    .navlist li {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .header h2 {
+        padding: 10px;
+    }
+
+    .cards img {
+        padding: 4px;
+    }
+
+    .footer p {
+        padding: 2% 2%;
+    }
+
+    .text_transform {
+        font-size: 100px;
+    }
+
+    .image_after_text img {
+        width: 85%;
+    }
+
+    .cards img {
+        width: 150px;
+        height: 265px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header button {
+        position: absolute;
+        left: 85%;
+    }
+
+}
+
+@media screen and (max-width: 710px) {
+    .navlist {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .v_class_resp {
+        opacity: 0;
+    }
+
+    .h_class_resp {
+        height: 78px;
+    }
+
+    .navlist {
+        margin-left: 17%;
+    }
+
+    .navlist {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 425px) {
+    .burger {
+        margin-left: 10%;
+    }
+
+    .header button {
+        margin-left: 13%;
+    }
+
+    .text_transform {
+        font-size: 80px;
+        margin-left: 10%;
+    }
+
+    .image_after_text img {
+        width: 100%;
+        margin-left: 28%;
+    }
+
+    .cards img {
+        width: 120px;
+        height: 200px;
+        margin-left: 42%;
+    }
+
+    .footer p {
+        padding: 0% 0%;
+        margin-left: 26%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .burger {
+        margin-left: 15%;
+        position: absolute;
+        top: 42px;
+    }
+
+    .header button {
+        margin-left: 20%;
+    }
+
+    .text_transform {
+        margin-left: 8%;
+    }
+
+    .image_after_text img {
+        margin-left: 39%;
+    }
+
+    .cards img {
+        width: 100px;
+        height: 170px;
+        margin-left: 60%;
+    }
+
+    .footer p {
+        margin-left: 38%;
+    }
+}
